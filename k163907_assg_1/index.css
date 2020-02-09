@@ -1,9 +1,34 @@
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
+
+    @media only screen and (min-width: 992px) {
+        .size1, .size2, .size3 {
+          width: 28%;
+        }
+        body{
+            background-color: aquamarine;
+        }
     }
+        @media only screen and (min-width: 768px)  and (max-width: 991px) {
+            .size1, .size2 {
+              width: 44%;
+            }
+
+            .size3{
+                width: 93%;
+            }
+            body{
+                background-color: burlywood;
+            }
+        }
+            @media only screen and (max-width: 767px) {
+                .size1, .size2, .size3 {
+                  width: 100%;
+                }
+                body{
+                    background-color: darkkhaki;
+                }
   }
   div {
+        
     width: 28%;
     padding: 0px;
     border: 2px solid rgb(0, 0, 0);
@@ -15,7 +40,7 @@
   h1{
       text-align: center;
   }
-  #chik{
+  #chicken{
     font-family: Cambria, Cochin, Georgia;
     padding-right: 0px;
     padding-left: 3px;
@@ -49,7 +74,7 @@
   h2{
       margin: 0%;
   }
-  #mutt{
+  #mutton{
     font-family: Cambria, Cochin, Georgia;
     padding-right: 0px;
     padding-left: 3px;
